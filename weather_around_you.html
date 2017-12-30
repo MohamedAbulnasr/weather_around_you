@@ -1,1 +1,54 @@
-
+<!DOCTYPE html>
+<html>
+ <head>
+<!-- Copy rights reserved for "Mohamed Abulnasr". Before reuse this code email me on objectiveerp@gmail.com -->
+  <title>Local Weather</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="description" content="Local Weather">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron|Satisfy|Permanent+Marker|Righteous|Saira">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="weather_around_you.css">
+  <script src="../js/jquery-latest.min.js"></script>
+	</head>
+	<body>
+   <!-- Copy rights reserved for "Mohamed Abulnasr". Before reuse this code email me on objectiveerp@gmail.com -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 text-center label label-info hd">
+				Weather around you now:
+				<h4 id='co'></h4>
+			</div>
+			<a title="please click here" href="javascript:void(0);" onclick="dg(); return false;" >
+			<div class="col-xs-12 text-center inf well well-sm">
+				<span id="temp1">Temprature is..</span>
+				<span id="degr"></span>
+				<span>
+					&nbsp;<img id="img1">&nbsp;
+				</span>
+			</div>
+			</a>
+			<div id="carea" class="col-xs-12 text-center inf bg">
+				<div id="area1" class="col-xs-12 text-center inf ">
+				Your location..
+				</div>
+			</div>
+		</div>
+	</div>
+<br/>
+		<footer class="text-center label label-default col-xs-12">
+			<span style="vertical-align:middle;color:lightgreen;font-size:14px;padding-right:60px;">&nbsp;&nbsp;
+		      by Mohamed Abulnasr
+		            &nbsp;<a href="https://www.fb.com/objectivesystems"><img id="forimg" src="https://raw.githubusercontent.com/FutureForObjectiveSystems/Albara3im/master/minlogo2.png" width="56px"
+		            style="border:4px ;vertical-align:middle;"
+		            />
+		        </a>&nbsp;
+		      Objective Systems
+		  &nbsp;</span>
+  		</footer>
+  <script src="weather_around_you.js"></script>
+	</body>
+</html>
