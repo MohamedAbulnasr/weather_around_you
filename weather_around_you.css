@@ -1,1 +1,29 @@
-
+	.hd{
+		font-family: Orbitron;
+		font-size: large;
+	}
+	.inf{
+		font-family: Saira;
+		font-size: x-large;
+		border:4px 4px 4px 4px solid black;
+		box-shadow: 9px;
+		margin: 0px;
+	}
+	.bg{
+		/*background-image: url("../images/weather2.jpg");*/
+	  display: block;
+		background-size: 400px 300px;
+		height: 300px;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: 2;
+		opacity: 0.5;
+	}
+	#area1{
+		text-shadow: -1px -1px rgb(250,250,250);		
+		font-weight:100;
+		color: darkblue;
+		z-index: 1;
+		opacity: 1;
+		border-radius: 25% ;
+	}
